@@ -1,0 +1,129 @@
+.div1{
+    background-color: #81C408;
+    height: 10vh;
+    color: white;
+    border-radius: 50px 20px 50px 20px ;
+    /* --bs-breadcrumb-divider-color:white; */
+} 
+.div1 a:link, a:visited
+{
+color: white;
+text-decoration: none ;
+}
+
+.breadcrumb-item::before
+{
+    color: white !important;
+}
+.div1 a:link, a:visited:hover
+{
+color: orange;
+text-decoration: none ;
+}
+.breadcrumb-item::before{
+    color: white !important;
+}
+.navbar-nav li a
+{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+input[type=search]
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    /* background-image: url('images/search.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px; */
+    outline: none;
+}
+input[type=search]:hover
+{
+    background-color: orange;
+    /* color: green; */
+}
+input[type=search]::placeholder
+{
+    color: #81C408;
+    /* text-align: center; */
+   height: 20px;
+   width: 20px;
+}
+.btn1{
+    background-color: #81C408;
+}
+.btn1:hover{
+    background-color: orange;
+}
+.nav-pills li button{
+    width:130px;
+    margin-left:10px;
+}
+.nav-pills li button:focus{
+    background-color: orange !important;
+    color: white !important;
+}
+/* .btn{
+    border: white;
+    border-radius: 30px;
+} */
+.btn:hover{
+/* background-color:#81C408; */
+background-color: orange !important;
+color: white !important;
+}
+/* .btn .icon:hover{
+    color: #81C408 !important;
+} */
+.slider-1 img:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+    /* box-shadow: black; */
+}
+.slider-1 .card :hover{
+    box-shadow: 9px 10px 9px lightgrey;
+}
+.slider-1 .card{
+    overflow: hidden;
+    border: 1px solid #81C408;
+}
+.lastdiv .card button:hover{
+background-color: orange;
+}
+.user{
+    color:orange;
+    
+}
+.card{
+    box-shadow: 1px solid gray;
+}
+.ho:hover{
+    color: orange;
+}
+.backimg
+{
+    background-image: url('images/cart-page-header-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.error{
+text-align: center;
+}
+.error btn:hover{
+    color: white;
+background-color: orange;
+}
+.prodd .card{
+    overflow: hidden;
+    border: 1px solid #81C408;
+
+}
+.prodd img:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+}
